@@ -80,4 +80,17 @@
   -webkit-column-count: 1;
   column-count: 1;
 }
+
+.col-1 {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+.col-2 {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
 }
