@@ -17,13 +17,26 @@
   }
   
   #logo h1 {
-    height: 35px;
-    width: 35px;
-  }
-  
-  #logo h2 {
-    font-size: 2.2em;
-  }
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  background: url(../images/exceptional-logo.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+#logo h2 {
+  display: inline-block;
+  font: 2.2em "Clicker Script", cursive;
+  margin: 0;
+  position: relative;
+  top: -9px;
+  left: 5px;
+  color: #303;
+}
   
   #social {
     margin-top: 72px;
@@ -42,4 +55,6 @@
 }
 }
 
-@media (max-width: 750px) 
+@media (max-width: 750px) {
+  
+}
