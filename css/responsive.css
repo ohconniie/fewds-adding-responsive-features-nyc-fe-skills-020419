@@ -1,16 +1,17 @@
-@media (min-width: 1108px) {
+@media (max-width: 1108px) {
   .wrapper {
     width: 90%;
   }
   
   #social {
     width: auto;
+    position: ;
     margin-top: 82px;
     margin-right: 4px;
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
   body {
     font-size: 85%;
   }
@@ -39,4 +40,6 @@
   -webkit-column-count: 2;
   column-count: 2;
 }
+}
 
+@media (max-width: 750px) 
