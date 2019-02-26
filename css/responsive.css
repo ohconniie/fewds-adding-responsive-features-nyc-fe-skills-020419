@@ -9,3 +9,11 @@
     margin-right: 4px;
   }
 }
+
+@media (min-width: 900px) {
+  body {
+    font-size: 85%;
+  }
+  
+  #logo
+}
